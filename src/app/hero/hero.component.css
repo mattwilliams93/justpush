@@ -1,4 +1,26 @@
 .heroContainer {
-  height: 90vh;
-  background: #f1f1f1;
+  height: 50vh;
+}
+
+.heroText {
+  color: white;
+  text-shadow: 0 0 1px rgba(0,0,0,.1);
+  font-weight:bold;
+  text-shadow: 1px 1px 13px rgba(0, 0, 0, 0.7);
+  padding-top: 100px;
+}
+
+.vid-container{
+  position:relative;
+  height:70vh;
+  top: -300px;
+  overflow:hidden;
+}
+.bgvid{
+  position:absolute;
+  left:0;
+  top:-150px;
+  width:99vw;
+  z-index: -99;
+  overflow: hidden;
 }

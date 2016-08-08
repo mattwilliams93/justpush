@@ -11,10 +11,16 @@ declare var jQuery: any;
 })
 export class HeroComponent implements OnInit{
 
-  constructor(private _elRef: ElementRef) { }
+  constructor() { }
 
   ngOnInit(){
-
+    jQuery('.typewriter').typed({
+      strings: ["User Interaction ^1000", "Sales ^1000", "Analytics ^1000", "Hello Willis, this if from Matt and i've refreshed! :D ^10000"],
+      typeSpeed: 0,
+      shuffle: true,
+      backDelay: 500,
+      startDelay: 3000
+    })
   }
 
 }
